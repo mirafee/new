@@ -1,0 +1,91 @@
+<div className="items-center justify-center flex space-y-4 flex-cols-3 gap-6">
+<div className="aspect-w-4 aspect-h-3" key={photo.id}>
+    <LazyLoadImage
+    alt={photo.id}
+    className="object-cover shadow-lg rounded-lg"
+    src={photo.urls.full}
+  />
+</div>
+</div>
+
+
+
+
+      <div className="story-item relative hover:opacity-90 cursor-pointer transition duration-200 ease-in-out" style={{width: '136px'}}>
+    <Image 
+      loader={myLoader}
+      width={500}
+      layout="fill" 
+      src="https://picsum.photos/id/23/200/300" 
+      className="rounded-xl" 
+    />
+    <div className="absolute flex flex-col justify-between h-full w-full top-0 left-0 py-4">
+      <Image 
+        loader={myLoader}
+        width={600}
+        layout="fill"
+        src="https://picsum.photos/id/237/50/50" 
+        className="rounded-full w-10 h-10 border-4 border-blue-500 ml-4" 
+      />
+      <div className="text-center text-white">John Doe</div>
+    </div>
+  </div>
+  <div className="story-item relative hover:opacity-90 cursor-pointer transition duration-200 ease-in-out" style={{width: '136px'}}>
+    <Image 
+      loader={myLoader}
+      width={700}
+      layout="fill"  
+      src="https://picsum.photos/id/29/200/300" 
+      className="rounded-xl" 
+    />
+    <div className="absolute flex flex-col justify-between h-full w-full top-0 left-0 py-4">
+      <Image 
+        loader={myLoader}
+        width={800}
+        layout="fill" 
+
+        src="https://picsum.photos/id/237/50/50" 
+        className="rounded-full w-10 h-10 border-4 border-blue-500 ml-4" 
+      />
+      <div className="text-center text-white">John Doe</div>
+    </div>
+  </div>
+  <div className="story-item relative hover:opacity-90 cursor-pointer transition duration-200 ease-in-out" style={{width: '136px'}}>
+    <Image 
+      loader={myLoader}
+      width={200}
+      layout="fill"  
+      src="https://picsum.photos/id/230/200/300" 
+      className="rounded-xl" 
+    />
+    <div className="absolute flex flex-col justify-between h-full w-full top-0 left-0 py-4">
+      <Image 
+        loader={myLoader}
+        width={300}
+        layout="fill" 
+        src="https://picsum.photos/id/237/50/50" 
+        className="rounded-full w-10 h-10 border-4 border-blue-500 ml-4" 
+      />
+      <div className="text-center text-white">John Doe</div>
+    </div>
+  </div>
+  <div className="story-item relative hover:opacity-90 cursor-pointer transition duration-200 ease-in-out" style={{width: '136px'}}>
+    <Image 
+      loader={myLoader}
+      width={400}
+      layout="fill"  
+      src="https://picsum.photos//id/63/200/300" 
+      className="rounded-xl" 
+    />
+    <div className="absolute flex flex-col justify-between h-full w-full top-0 left-0 py-4">
+      <Image 
+        loader={myLoader}
+        width={500}
+        layout="fill" 
+
+        src="https://picsum.photos/id/237/50/50" 
+        className="rounded-full w-10 h-10 border-4 border-blue-500 ml-4" 
+      />
+      <div className="text-center text-white">John Doe</div>
+    </div>
+  </div>

@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+    .custom-shadow{
+        box-shadow:0 0 15px rgba(0,0,0,0.5)
+    }
+    .w-terminal{
+        width:36rem;
+    }
+    pre,code{
+        padding:0px !important;
+    }
+    .hw-inner{
+        height:28rem;
+        width:28rem;
+    }
+    .hw-outer{
+        height:36rem;
+        width:36rem;
+    }
+    .anim-8s{
+        animation-duration:8s !important;
+    }
+}
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
